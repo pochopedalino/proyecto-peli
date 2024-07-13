@@ -1,0 +1,82 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+.container-fluid {
+background-image: url(./seccionimg.jpg);
+opacity: 90%;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+width: 100%;
+
+}
+
+.animate__animated {
+background-color: black;
+opacity: 10%;
+    width: 400px;
+    height: 90vh;
+border-radius: 5%;
+}
+
+.a {
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    height: 70 px;
+    opacity: 50%;   
+}
+
+
+.btn {
+    border-radius: 20px;
+    height: small;
+    align-items: start;
+    border: 2px solid #9f3647;
+    background-color:#333333;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    
+}
+
+.btn-1 {
+    background-color: #bd0404;
+    border: 2px solid #9f3647;
+    color: white;
+    width: 75%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.h2 {
+    margin-top: 30%;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.b {
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.registrarse {
+    text-decoration: none;
+    color: grey;
+    display: flex;
+    margin-left: 15%;
+}
